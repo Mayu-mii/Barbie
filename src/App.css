@@ -1,38 +1,162 @@
-.App {
+nav, .slider, .body{
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+}
+
+.flex {
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+
+}
+
+.list {
+  list-style-type: none;
+}
+
+.divider {
+  color: #ec419b;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.icons {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.space-between{
+  justify-content: space-between;
+  width: 100%;
+}
+
+.slider {
+  margin-top: 30px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slider img {
+  width: 80%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ec419b;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.dot-container {
+  margin-top: 30px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+hr {
+  width: 80%;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  color: #ec419b;
+  margin-top: 40px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.platform {
+  font-size: 20px;
+  font-weight: bold;
+  color: #35c0ca;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.description {
+  width: 80%;
+  text-align: justify;
+}
+
+.arrow {
+  color: #ec419b;
+  font-size: 27px;
+}
+
+.extra {
+  color: gray;
+  width: 80%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 150px;
+}
+
+footer span {
+  color: #ec419b;
+  font-weight: bold;
+}
+
+.content {
+  color: #ec419b;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.back-to-top {
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.back-to-top div {
+  background-color: black;
   color: white;
+  width: 5%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2%;
+  border-radius: 250px;
+  font-size: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.back-to-top p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.back-to-top span {
+  color: #ec419b;
 }
