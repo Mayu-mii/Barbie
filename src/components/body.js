@@ -1,10 +1,10 @@
 import React from "react";
-import "../App.css";
+import "..//App.css";
 
 class Body extends React.Component {
-  render() {
+  render(titles, list) {
     return (
-      <div className="body">
+      <div class="body">
         {this.props.titles.map((data) => {
           if (data.count === "first") {
             return (
@@ -20,7 +20,7 @@ class Body extends React.Component {
             if (data.type === "purpose") {
               return (
                 <div className="col-4">
-                  <div className="center">
+                  <div class="center">
                     <iframe
                       width="80%"
                       height="300"
@@ -38,25 +38,6 @@ class Body extends React.Component {
                   </div>
                 </div>
               );
-            } else if (data.type === "commercials") {
-              return (
-                <div className="col-4">
-                  <div className="center">
-                    <iframe
-                      width="80%"
-                      height="300"
-                      src={data.link}
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                  <div>
-                    <h4>{data.label}</h4>
-                  </div>
-                </div>
-              );
             }
           })}
         </div>
@@ -65,19 +46,19 @@ class Body extends React.Component {
           if (data.count === "second") {
             return (
               <div>
-                <p className="content">{data.title}</p>
+                <p class="content">{data.title}</p>
               </div>
             );
           }
         })}
         <div className="flex mt-20">
           {this.props.list.map((data) => {
-            if (data.type === "content") {
+            if (data.type === "collections") {
               return (
                 <div className="col-4 center-div">
                   <img src={data.link} alt="" />
                   <p
-                    className="platform"
+                    class="platform"
                     style={{
                       color:
                         data.platform === "YOUTUBE"
@@ -89,11 +70,11 @@ class Body extends React.Component {
                   >
                     {data.platform}
                   </p>
-                  <p className="title">{data.label}</p>
-                  <p className="description">{data.description}</p>
-                  <p className="extra">{data.extra}</p>
+                  <p class="title">{data.label}</p>
+                  <p class="description">{data.description}</p>
+                  <p class="extra">{data.extra}</p>
                   <p
-                    className="arrow"
+                    class="arrow"
                     style={{
                       color:
                         data.watch_on === "Youtube"

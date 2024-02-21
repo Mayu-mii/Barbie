@@ -23,7 +23,7 @@ const list = [
     type: "purpose",
   },
   {
-    link: "http://www.barbiemedia.com/admin/uploads/barbie-media_vlogger_350x200px.png",
+    link: "https://i.ibb.co/5nBjzs4/barbie-media-vlogger-350x200px.png",
     label: "Barbie Vlogger",
     hashtag: "",
     platform: "YOUTUBE",
@@ -34,7 +34,7 @@ const list = [
     type: "content",
   },
   {
-    link: "http://www.barbiemedia.com/admin/uploads/barbie-media_tiny-shoulders_350x200px.png",
+    link: "https://i.ibb.co/0K1mMxq/barbie-media-tiny-shoulders-350x200px.png",
     label: "Tiny Shoulders: Rethinking Barbie",
     hashtag: "",
     platform: "DOCUMENTARY",
@@ -46,7 +46,7 @@ const list = [
     type: "content",
   },
   {
-    link: "http://www.barbiemedia.com/admin/uploads/barbie-media_dreamhouse-adventures_350x200px.png",
+    link: "https://i.ibb.co/7nS9GFh/barbiedreamhouse.png",
     label: "Barbie Dreamhouse Adventures",
     hashtag: "",
     platform: "ANIMATED SERIES",
@@ -57,15 +57,38 @@ const list = [
     type: "content",
   },
   {
-    link: "http://www.barbiemedia.com/admin/uploads/barbie-media_dreamhouse-adventures_350x200px.png",
-    label: "Barbie Dreamhouse Adventures",
+    link: "https://i.ibb.co/nQn285G/3bbi-hjy02.jpg",
+    label: "Barbie",
     hashtag: "",
-    platform: "ANIMATED SERIES",
+    platform: "BARBIE SERIES",
     description:
-      "Peek into the everyday life of Barbie in this hilarious and heartwarming new series. From fun road trips to suster shenanigans, Barbie discovers anything is possible with a little help and a whole lot of laughter",
+      "Barbie is a fashion doll created by American businesswoman Ruth Handler, manufactured by American toy and entertainment company Mattel and introduced on March 9, 1959. The toy was based on the German Bild Lilli doll which Handler had purchased while in Europe.",
     watch_on: "Netflix",
     extra: "",
-    type: "content",
+    type: "collections",
+  },
+
+  {
+    link: "https://i.ibb.co/3yTqr4w/barbie-2778-3465392-1.webp",
+    label: "Ken",
+    hashtag: "",
+    platform: "BARBIE SERIES",
+    description:
+      "Kenneth Sean 'Ken' Carson Jr. is a fashion doll introduced by American toy company Mattel in 1961 as the counterpart of Barbie, who had been introduced two years earlier.",
+    watch_on: "Netflix",
+    extra: "",
+    type: "collections",
+  },
+  {
+    link: "https://i.ibb.co/kqFfwtr/81q7aom9-Hp-L-AC-SL1024.jpg",
+    label: "Mariposa",
+    hashtag: "",
+    platform: "BARBIE SERIES",
+    description:
+      "A butterfly fairy missions to save her poisoned queen and reinstate the shield that protects their kingdom from predators.",
+    watch_on: "Netflix",
+    extra: "",
+    type: "collections",
   },
 ];
 
@@ -76,9 +99,14 @@ const titles = [
     count: "first",
   },
   {
-    title: "CONTENT",
+    title: "content",
     subtitle: "",
     count: "second",
+  },
+  {
+    title: "collections",
+    subtitle: "",
+    count: "third",
   },
 ];
 
